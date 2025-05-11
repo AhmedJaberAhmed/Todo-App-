@@ -16,7 +16,7 @@ class CheckedPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.yellow[200],
       appBar: AppBar(
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.yellow[800],
         centerTitle: true,
         title: Text("Done Page"),
       ),
@@ -30,7 +30,7 @@ class CheckedPage extends StatelessWidget {
                   return Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Card(
-                      color: Colors.yellow,
+                      color: Colors.yellow[800],
                       child: ListTile(
                           title: Text(todo.text),
                           leading: const Icon(Icons.check_circle,
